@@ -2,3 +2,18 @@ favicon: "/img/favicon.min.webp"
 github: "https://github.com/holmofy/cs.hufeifei.cn"
 githubToolTip: "Contribute to CheatSheets"
 root_back: //www.hufeifei.cn
+
+# valine comment system. https://valine.js.org
+valine:
+  enable: true
+  appId: 8Yo6tv65sOStsPwvGSOAmOtM-gzGzoHsz
+  appKey: IJPXPCV29V5ja34nj1JL3tQe
+  notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
+  verify: false # valine verify code (true/false)
+  pageSize: 10 # comment list page size
+  avatar: mm # gravatar style https://valine.js.org/#/avatar
+  lang: zh-cn # i18n: zh-cn/en
+  placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
+  visitor: true
+  recordIP: true
+  requiredFields: ['nick']

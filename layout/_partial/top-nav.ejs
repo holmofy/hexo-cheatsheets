@@ -1,7 +1,11 @@
 <nav class='top-nav' data-js-no-preview role='navigation'>
   <div class='container'>
     <div class='left'>
-      <a class='home back-button' href='<%= is_home()&&theme.root_back?theme.root_back:config.root %>'></a>
+      <% if(is_home()&&theme.root_back){%>
+      <a class='home back-button' href='<%= theme.root_back %>'></a>
+      <% } else { %>
+      <a class='home back-button' href='<%= config.root %>'></a>
+      <% } %>
     </div>
 
     <div class='actions'>
