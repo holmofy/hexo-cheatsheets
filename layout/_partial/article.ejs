@@ -14,7 +14,7 @@
 
 </article>
 <% if(theme.valine && theme.valine.enable) {%>
-  <div id="vcomments" style="padding: 10px 50px;"></div>
+  <div id="vcomments" style="max-width: 1232px;margin: 0 auto;"></div>
   <script>
       window.addEventListener('load', function () {
           new Valine(<%-JSON.stringify(Object.assign({

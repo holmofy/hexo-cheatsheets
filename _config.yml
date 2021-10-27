@@ -6,8 +6,8 @@ root_back: //www.hufeifei.cn
 # valine comment system. https://valine.js.org
 valine:
   enable: true
-  appId: 8Yo6tv65sOStsPwvGSOAmOtM-gzGzoHsz
-  appKey: IJPXPCV29V5ja34nj1JL3tQe
+  appId: 1G4BM5BM5FWY8sHttxI7RzmK-gzGzoHsz
+  appKey: HpeTK86qFg08p2i329bvg2os
   notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
   verify: false # valine verify code (true/false)
   pageSize: 10 # comment list page size
@@ -16,4 +16,3 @@ valine:
   placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
   visitor: true
   recordIP: true
-  requiredFields: ['nick']
