@@ -10,7 +10,10 @@
     </main>
   </div>
 
-  <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
+  <div id="<%-url_for(page.path)%>" class='pre-footer leancloud_visitors' data-flag-title="<%=page.title%>" data-js-no-preview>
+    <i class='icon'></i>
+    <p class="leancloud-visitors-count" style="margin-top: 0;"></p>
+  </div>
 
 </article>
 <% if(theme.valine && theme.valine.enable) {%>
